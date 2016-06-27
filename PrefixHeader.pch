@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  PromotionCard
+//
+//  Created by Home on 2/5/16.
+//  Copyright © 2016 Anish Kumar. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "DataManager.h"
+#import "Utilities.h"
+
+#define kImageNotAvailable [UIImage imageNamed:@"NoImageAvailable.jpg"]
+#define kAppThemeColor [UIColor colorWithRed:255 green:0 blue:0 alpha:0.65]
+
+#define kSegueIdentifierPromotionDetailToWebView @"promotionDetailToWebview"
+#define kSegueIdentifierPromotionsToDetailView @"promotionsToDetailView"
+
+#define kURLStringForPromotionsData @"http://www.abercrombie.com/anf/nativeapp/Feeds/promotions.json"
+
+#endif /* PrefixHeader_pch */

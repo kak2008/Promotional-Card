@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		605D226B1C656C0200F2D055 /* UtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605D226A1C656C0200F2D055 /* UtilitiesTests.m */; };
+		605D22741C65748700F2D055 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 605D22731C65748700F2D055 /* DataManager.m */; };
+		605D22781C65805500F2D055 /* NoImageAvailable.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 605D22771C65805500F2D055 /* NoImageAvailable.jpg */; };
+		605D227F1C659A7800F2D055 /* PromotionCardDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605D227E1C659A7800F2D055 /* PromotionCardDetailViewController.m */; };
+		605D22801C65C8C600F2D055 /* PromotionCardDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605D227E1C659A7800F2D055 /* PromotionCardDetailViewController.m */; };
+		605D22821C65D23D00F2D055 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 605D22811C65D23D00F2D055 /* Localizable.strings */; };
+		60B364CB1C64D05E002A55ED /* PCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B364CA1C64D05E002A55ED /* PCWebViewController.m */; };
+		60B7A50C1C641EC60017DCF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B7A50B1C641EC60017DCF9 /* main.m */; };
+		60B7A50F1C641EC60017DCF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B7A50E1C641EC60017DCF9 /* AppDelegate.m */; };
+		60B7A5121C641EC60017DCF9 /* PromotionsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B7A5111C641EC60017DCF9 /* PromotionsListViewController.m */; };
+		60B7A5151C641EC60017DCF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B7A5131C641EC60017DCF9 /* Main.storyboard */; };
+		60B7A5171C641EC60017DCF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B7A5161C641EC60017DCF9 /* Assets.xcassets */; };
+		60B7A51A1C641EC60017DCF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B7A5181C641EC60017DCF9 /* LaunchScreen.storyboard */; };
+		60B7A5301C641EC70017DCF9 /* PromotionCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B7A52F1C641EC70017DCF9 /* PromotionCardUITests.m */; };
+		60B7A5421C6422B50017DCF9 /* Promotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B7A5411C6422B50017DCF9 /* Promotion.m */; };
+		60B7A5491C6435A20017DCF9 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B7A5481C6435A20017DCF9 /* Utilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60B7A5211C641EC70017DCF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60B7A4FF1C641EC60017DCF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B7A5061C641EC60017DCF9;
+			remoteInfo = PromotionCard;
+		};
+		60B7A52C1C641EC70017DCF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60B7A4FF1C641EC60017DCF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B7A5061C641EC60017DCF9;
+			remoteInfo = PromotionCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		605D226A1C656C0200F2D055 /* UtilitiesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilitiesTests.m; sourceTree = "<group>"; };
+		605D22721C65748700F2D055 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		605D22731C65748700F2D055 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		605D22771C65805500F2D055 /* NoImageAvailable.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NoImageAvailable.jpg; sourceTree = "<group>"; };
+		605D22791C65834100F2D055 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		605D227D1C659A7800F2D055 /* PromotionCardDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromotionCardDetailViewController.h; sourceTree = "<group>"; };
+		605D227E1C659A7800F2D055 /* PromotionCardDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromotionCardDetailViewController.m; sourceTree = "<group>"; };
+		605D22811C65D23D00F2D055 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		60B364C91C64D05E002A55ED /* PCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCWebViewController.h; sourceTree = "<group>"; };
+		60B364CA1C64D05E002A55ED /* PCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCWebViewController.m; sourceTree = "<group>"; };
+		60B7A5071C641EC60017DCF9 /* PromotionCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PromotionCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B7A50B1C641EC60017DCF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60B7A50D1C641EC60017DCF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60B7A50E1C641EC60017DCF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60B7A5101C641EC60017DCF9 /* PromotionsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromotionsListViewController.h; sourceTree = "<group>"; };
+		60B7A5111C641EC60017DCF9 /* PromotionsListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromotionsListViewController.m; sourceTree = "<group>"; };
+		60B7A5141C641EC60017DCF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60B7A5161C641EC60017DCF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60B7A5191C641EC60017DCF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60B7A51B1C641EC60017DCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B7A5201C641EC70017DCF9 /* PromotionCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PromotionCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B7A5261C641EC70017DCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B7A52B1C641EC70017DCF9 /* PromotionCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PromotionCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B7A52F1C641EC70017DCF9 /* PromotionCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromotionCardUITests.m; sourceTree = "<group>"; };
+		60B7A5311C641EC70017DCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B7A5401C6422B50017DCF9 /* Promotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Promotion.h; sourceTree = "<group>"; };
+		60B7A5411C6422B50017DCF9 /* Promotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Promotion.m; sourceTree = "<group>"; };
+		60B7A5471C6435A20017DCF9 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		60B7A5481C6435A20017DCF9 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60B7A5041C641EC60017DCF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B7A51D1C641EC70017DCF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B7A5281C641EC70017DCF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		605D22711C65746E00F2D055 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				605D22721C65748700F2D055 /* DataManager.h */,
+				605D22731C65748700F2D055 /* DataManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		60B364CC1C64D57D002A55ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60B7A5131C641EC60017DCF9 /* Main.storyboard */,
+				60B7A5181C641EC60017DCF9 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		60B7A4FE1C641EC60017DCF9 = {
+			isa = PBXGroup;
+			children = (
+				60B7A5091C641EC60017DCF9 /* PromotionCard */,
+				60B7A5231C641EC70017DCF9 /* PromotionCardTests */,
+				60B7A52E1C641EC70017DCF9 /* PromotionCardUITests */,
+				60B7A5081C641EC60017DCF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60B7A5081C641EC60017DCF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60B7A5071C641EC60017DCF9 /* PromotionCard.app */,
+				60B7A5201C641EC70017DCF9 /* PromotionCardTests.xctest */,
+				60B7A52B1C641EC70017DCF9 /* PromotionCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60B7A5091C641EC60017DCF9 /* PromotionCard */ = {
+			isa = PBXGroup;
+			children = (
+				605D22711C65746E00F2D055 /* Managers */,
+				60B364CC1C64D57D002A55ED /* View */,
+				60B7A5431C642F0B0017DCF9 /* ViewControllers */,
+				60B7A53F1C64228A0017DCF9 /* Model */,
+				60B7A50D1C641EC60017DCF9 /* AppDelegate.h */,
+				60B7A50E1C641EC60017DCF9 /* AppDelegate.m */,
+				60B7A5161C641EC60017DCF9 /* Assets.xcassets */,
+				60B7A51B1C641EC60017DCF9 /* Info.plist */,
+				60B7A50A1C641EC60017DCF9 /* Supporting Files */,
+				60B7A5471C6435A20017DCF9 /* Utilities.h */,
+				60B7A5481C6435A20017DCF9 /* Utilities.m */,
+				605D22811C65D23D00F2D055 /* Localizable.strings */,
+			);
+			path = PromotionCard;
+			sourceTree = "<group>";
+		};
+		60B7A50A1C641EC60017DCF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				605D22791C65834100F2D055 /* PrefixHeader.pch */,
+				605D22771C65805500F2D055 /* NoImageAvailable.jpg */,
+				60B7A50B1C641EC60017DCF9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60B7A5231C641EC70017DCF9 /* PromotionCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				60B7A5261C641EC70017DCF9 /* Info.plist */,
+				605D226A1C656C0200F2D055 /* UtilitiesTests.m */,
+			);
+			path = PromotionCardTests;
+			sourceTree = "<group>";
+		};
+		60B7A52E1C641EC70017DCF9 /* PromotionCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60B7A52F1C641EC70017DCF9 /* PromotionCardUITests.m */,
+				60B7A5311C641EC70017DCF9 /* Info.plist */,
+			);
+			path = PromotionCardUITests;
+			sourceTree = "<group>";
+		};
+		60B7A53F1C64228A0017DCF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60B7A5401C6422B50017DCF9 /* Promotion.h */,
+				60B7A5411C6422B50017DCF9 /* Promotion.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		60B7A5431C642F0B0017DCF9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				60B7A5101C641EC60017DCF9 /* PromotionsListViewController.h */,
+				60B7A5111C641EC60017DCF9 /* PromotionsListViewController.m */,
+				605D227D1C659A7800F2D055 /* PromotionCardDetailViewController.h */,
+				605D227E1C659A7800F2D055 /* PromotionCardDetailViewController.m */,
+				60B364C91C64D05E002A55ED /* PCWebViewController.h */,
+				60B364CA1C64D05E002A55ED /* PCWebViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60B7A5061C641EC60017DCF9 /* PromotionCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B7A5341C641EC70017DCF9 /* Build configuration list for PBXNativeTarget "PromotionCard" */;
+			buildPhases = (
+				60B7A5031C641EC60017DCF9 /* Sources */,
+				60B7A5041C641EC60017DCF9 /* Frameworks */,
+				60B7A5051C641EC60017DCF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PromotionCard;
+			productName = PromotionCard;
+			productReference = 60B7A5071C641EC60017DCF9 /* PromotionCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60B7A51F1C641EC70017DCF9 /* PromotionCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B7A5371C641EC70017DCF9 /* Build configuration list for PBXNativeTarget "PromotionCardTests" */;
+			buildPhases = (
+				60B7A51C1C641EC70017DCF9 /* Sources */,
+				60B7A51D1C641EC70017DCF9 /* Frameworks */,
+				60B7A51E1C641EC70017DCF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60B7A5221C641EC70017DCF9 /* PBXTargetDependency */,
+			);
+			name = PromotionCardTests;
+			productName = PromotionCardTests;
+			productReference = 60B7A5201C641EC70017DCF9 /* PromotionCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60B7A52A1C641EC70017DCF9 /* PromotionCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B7A53A1C641EC70017DCF9 /* Build configuration list for PBXNativeTarget "PromotionCardUITests" */;
+			buildPhases = (
+				60B7A5271C641EC70017DCF9 /* Sources */,
+				60B7A5281C641EC70017DCF9 /* Frameworks */,
+				60B7A5291C641EC70017DCF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60B7A52D1C641EC70017DCF9 /* PBXTargetDependency */,
+			);
+			name = PromotionCardUITests;
+			productName = PromotionCardUITests;
+			productReference = 60B7A52B1C641EC70017DCF9 /* PromotionCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60B7A4FF1C641EC60017DCF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Anish Kumar";
+				TargetAttributes = {
+					60B7A5061C641EC60017DCF9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					60B7A51F1C641EC70017DCF9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 60B7A5061C641EC60017DCF9;
+					};
+					60B7A52A1C641EC70017DCF9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 60B7A5061C641EC60017DCF9;
+					};
+				};
+			};
+			buildConfigurationList = 60B7A5021C641EC60017DCF9 /* Build configuration list for PBXProject "PromotionCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60B7A4FE1C641EC60017DCF9;
+			productRefGroup = 60B7A5081C641EC60017DCF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60B7A5061C641EC60017DCF9 /* PromotionCard */,
+				60B7A51F1C641EC70017DCF9 /* PromotionCardTests */,
+				60B7A52A1C641EC70017DCF9 /* PromotionCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60B7A5051C641EC60017DCF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605D22821C65D23D00F2D055 /* Localizable.strings in Resources */,
+				605D22781C65805500F2D055 /* NoImageAvailable.jpg in Resources */,
+				60B7A51A1C641EC60017DCF9 /* LaunchScreen.storyboard in Resources */,
+				60B7A5171C641EC60017DCF9 /* Assets.xcassets in Resources */,
+				60B7A5151C641EC60017DCF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B7A51E1C641EC70017DCF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B7A5291C641EC70017DCF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60B7A5031C641EC60017DCF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B7A5491C6435A20017DCF9 /* Utilities.m in Sources */,
+				60B7A5121C641EC60017DCF9 /* PromotionsListViewController.m in Sources */,
+				60B364CB1C64D05E002A55ED /* PCWebViewController.m in Sources */,
+				60B7A5421C6422B50017DCF9 /* Promotion.m in Sources */,
+				605D227F1C659A7800F2D055 /* PromotionCardDetailViewController.m in Sources */,
+				605D22741C65748700F2D055 /* DataManager.m in Sources */,
+				60B7A50F1C641EC60017DCF9 /* AppDelegate.m in Sources */,
+				60B7A50C1C641EC60017DCF9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B7A51C1C641EC70017DCF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605D226B1C656C0200F2D055 /* UtilitiesTests.m in Sources */,
+				605D22801C65C8C600F2D055 /* PromotionCardDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B7A5271C641EC70017DCF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B7A5301C641EC70017DCF9 /* PromotionCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60B7A5221C641EC70017DCF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60B7A5061C641EC60017DCF9 /* PromotionCard */;
+			targetProxy = 60B7A5211C641EC70017DCF9 /* PBXContainerItemProxy */;
+		};
+		60B7A52D1C641EC70017DCF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60B7A5061C641EC60017DCF9 /* PromotionCard */;
+			targetProxy = 60B7A52C1C641EC70017DCF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60B7A5131C641EC60017DCF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B7A5141C641EC60017DCF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60B7A5181C641EC60017DCF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B7A5191C641EC60017DCF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60B7A5321C641EC70017DCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60B7A5331C641EC70017DCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60B7A5351C641EC70017DCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = PromotionCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anish.PromotionCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60B7A5361C641EC70017DCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = PromotionCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anish.PromotionCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		60B7A5381C641EC70017DCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PromotionCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anish.PromotionCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PromotionCard.app/PromotionCard";
+			};
+			name = Debug;
+		};
+		60B7A5391C641EC70017DCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PromotionCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anish.PromotionCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PromotionCard.app/PromotionCard";
+			};
+			name = Release;
+		};
+		60B7A53B1C641EC70017DCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PromotionCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anish.PromotionCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PromotionCard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		60B7A53C1C641EC70017DCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PromotionCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anish.PromotionCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PromotionCard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60B7A5021C641EC60017DCF9 /* Build configuration list for PBXProject "PromotionCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B7A5321C641EC70017DCF9 /* Debug */,
+				60B7A5331C641EC70017DCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B7A5341C641EC70017DCF9 /* Build configuration list for PBXNativeTarget "PromotionCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B7A5351C641EC70017DCF9 /* Debug */,
+				60B7A5361C641EC70017DCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B7A5371C641EC70017DCF9 /* Build configuration list for PBXNativeTarget "PromotionCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B7A5381C641EC70017DCF9 /* Debug */,
+				60B7A5391C641EC70017DCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B7A53A1C641EC70017DCF9 /* Build configuration list for PBXNativeTarget "PromotionCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B7A53B1C641EC70017DCF9 /* Debug */,
+				60B7A53C1C641EC70017DCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60B7A4FF1C641EC60017DCF9 /* Project object */;
+}
