@@ -12,7 +12,7 @@ In order to run this app. Download the repository, open it on XCode, build & run
 This app has two view controllers:
 - __Promotions List View Controller__: - This view controller shows list of promotional cards.
 
-- __Promotion card details View Controller__: - This view controller 
+- __Promotion card details View Controller__: - This view controller contains promotion card image and details. Promotional card offer link will be provided in view.  
 
 - Application uses UIKit.
 
