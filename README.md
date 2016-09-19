@@ -1,5 +1,5 @@
 # Promotional-Card
-
+This app shows list of promotion cards, user can tap & see promotion card in detail. User can open the link associated to the promotional card and user can shop the items from the app.    
 
 ## Installation
 In order to run this app. Download the repository, open it on XCode, build & run.
@@ -12,7 +12,7 @@ In order to run this app. Download the repository, open it on XCode, build & run
 This app has two view controllers:
 - __Login View Controller__: - This view controller allows user to login either using Udacity or Facebook credentials. 
 
-- Application uses MapKit, UIKit.
+- Application uses UIKit.
 
 ## Requirements
 * Xcode 7.3
