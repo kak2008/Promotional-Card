@@ -10,7 +10,9 @@ In order to run this app. Download the repository, open it on XCode, build & run
 
 ## Implementation
 This app has two view controllers:
-- __Login View Controller__: - This view controller allows user to login either using Udacity or Facebook credentials. 
+- __Promotions List View Controller__: - This view controller shows list of promotional cards.
+
+- __Promotion card details View Controller__: - This view controller 
 
 - Application uses UIKit.
 
